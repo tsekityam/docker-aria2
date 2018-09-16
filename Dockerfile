@@ -10,4 +10,4 @@ RUN apk update && apk add aria2 --no-cache
 
 EXPOSE 6800
 
-CMD aria2c --conf-path=/data/.aria2/aria2.conf
+CMD aria2c --conf-path=/config/aria2.conf
